@@ -1,9 +1,10 @@
+import Hero from "@/components/ui/Hero";
 import React from "react";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Welcome to Donation</h1>
+      <Hero />
     </div>
   );
 };

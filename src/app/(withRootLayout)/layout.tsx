@@ -6,7 +6,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Providers>
       <Navbar />
-      <div className="min-h-screen mt-20">{children}</div>
+      <div className="min-h-screen mt-16">{children}</div>
       <Footer />
     </Providers>
   );
