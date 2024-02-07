@@ -1,11 +1,13 @@
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
 import Providers from "@/lib/Providers";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Providers>
-      <h1>Navbar</h1>
-      <div className="min-h-screen">{children}</div>
-      <h1>Footer</h1>
+      <Navbar />
+      <div className="min-h-screen mt-20">{children}</div>
+      <Footer />
     </Providers>
   );
 };
